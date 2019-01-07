@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".SignupActivity"
+    android:id="@+id/view">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/request_sign"
+        android:textSize="40sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <EditText
+            android:id="@+id/receiver"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_email_address_of_the_receiver"
+            android:inputType=""
+            android:importantForAutofill="no"
+            tools:targetApi="o" />
+
+        <EditText
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Subject"
+            android:inputType=""
+            android:importantForAutofill="no"
+            tools:targetApi="o" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/choose_image"
+            android:textSize="20sp"/>
+
+        <ImageButton
+            android:id="@+id/btnSelectImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:src="@android:drawable/ic_menu_gallery"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/choose_pdf"
+            android:textSize="20sp"/>
+
+        <ImageButton
+            android:id="@+id/btnSelectPdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:src="@android:drawable/ic_menu_add"/>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/reviewRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/request" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="127dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp" />
+
+</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "830639378823",
+    "firebase_url": "https://signav-sign-anytime-virtually.firebaseio.com",
+    "project_id": "signav-sign-anytime-virtually",
+    "storage_bucket": "signav-sign-anytime-virtually.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830639378823:android:316a88a6c74e334b",
+        "android_client_info": {
+          "package_name": "com.android.io.github.vaidehighime.www.signavv001"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830639378823-jq523euqp31jh65kn9qkpc0p2edqlmmd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.io.github.vaidehighime.www.signavv001",
+            "certificate_hash": "d451f5a1310307f6a95a98db97cf62817e3a0670"
+          }
+        },
+        {
+          "client_id": "830639378823-sco3g0ufibm8ombo8lq7pus90ndg36ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChxdiqpbqehHz4Ccnjgc8QefSMwJa7q8M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830639378823-sco3g0ufibm8ombo8lq7pus90ndg36ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
